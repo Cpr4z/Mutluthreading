@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.0.0)
-project(multiThreadArray VERSION 0.1.0)
+project(multiThreading VERSION 0.1.0)
 
 include(CTest)
 enable_testing()
 
-add_executable(ThreadPolling polling.cpp)
+add_executable(multiThreading main.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
